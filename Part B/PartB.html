@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href="bakery.css">
+    <script src="bakery.js"></script>
+    <title>Sheet cake</title>
+</head>
+<body>
+
+    <div id="chooseLayer" style="display:block">
+		<label>Select Layers</label><br>
+		<select id="layers" >
+		<option value="1" selected>Choose the Number of Layers</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		</select>
+		</div>
+
+		<br><div id="parameters1" style="display:block">
+		<label>Enter the Length in cm</label><br>
+		<input id ="length" type="number" value = "30" min="30" max="60"><br>
+
+		<label>Enter the Width in cm</label><br>
+		<input id ="width" type="number" value = "30" min="30" max="45"><br>
+		</div>
+
+        <div id="extras" style="display:block">
+            <label id="ad">Additional Choices: </label><br>
+            <input id="ad1" type=checkbox name=creamCheese value=5>Cream Cheese icing is an extra $5.<br>
+            <input id="ad2" type=checkbox name=fruitAlmond value=7>Fruit and Almonds topping is an extra $7.<br>
+            <input id="ad3" type=checkbox name=fruitJam value=4>Fruit jam filling between layers is an extra $4.<br>
+        </div>
+        
+    
+</body>
+</html>
